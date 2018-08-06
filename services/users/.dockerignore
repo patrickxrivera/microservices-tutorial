@@ -1,3 +1,4 @@
+htmlcov
 env
 .dockerignore
 Dockerfile-dev
