@@ -10,6 +10,7 @@ app = create_app()
 
 
 class TestDevelopmentConfig(TestCase):
+
     def create_app(self):
         app.config.from_object('project.config.DevelopmentConfig')
         return app
