@@ -1,7 +1,6 @@
 # base image
 FROM python:3.6.5-alpine
 
-# new
 # install dependencies
 RUN apk update && \
     apk add --virtual build-deps gcc python-dev musl-dev && \
